@@ -19,6 +19,10 @@ dependencies {
 	
 	compileOnly 'org.projectlombok:lombok:1.18.10'
 	
+	// according to https://www.baeldung.com/maven-webjars
+	compile group: 'org.webjars', name: 'bootstrap', version: '4.4.1'
+	compile group: 'org.webjars', name: 'jquery', version: '3.4.1'
+
 //	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
