@@ -1,16 +1,17 @@
 <!DOCTYPE HTML>
-<html xmlns:layout="http://www.w3.org/1999/xhtml" layout:decorate="~{fragments/main_layout}">
+<html xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <title>Spring Boot Thymeleaf + Spring Security</title>
 </head>
 <body>
-<div layout:fragment="content" class="container">
+    <header th:th:insert ="fragments/header.html :: header"> </header>
+    <div class="container">
 
-    <div class="starter-template">
-        <h1>Spring Boot default template</h1>
-        <p class="lead">Simple project for fun.<br> devo0408.</p>
+        <div class="starter-template">
+            <h1>Spring Boot default template</h1>
+            <p class="lead">Simple project for fun.<br> devo0408.</p>
+        </div>
+
     </div>
-
-</div>
 </body>
 </html>
