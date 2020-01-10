@@ -7,3 +7,7 @@ https://stackoverflow.com/questions/36663038/spring-thymeleaf-header-and-footer-
 https://medium.com/@omeryazir/layout-with-thymeleaf-on-spring-boot-b604a46e7265
 https://habr.com/ru/search/?q=%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA+Thymeleaf#h
 https://www.baeldung.com/thymeleaf-spring-layouts
+
+
+https://github.com/chargeahead/thymeleaffragments/blob/master/src/main/resources/templates/editView.html
+https://www.youtube.com/watch?v=iUlGEuC4tBw
