@@ -1,4 +1,4 @@
-package com.devo.root.index;
+package com.devo.root.common;
 
 
 import org.springframework.stereotype.Controller;
